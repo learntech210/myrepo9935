@@ -1,0 +1,241 @@
+python MCQs
+
+1. Given list a=[9,5,6,7,8,3,4]  moderate
+
+what is the output of a[2:2]?
+
+a. Prints first two values.
+b. Prints two values after two values.
+c. prints first four values.
+d. prints empty slice.  -- ans
+
+2.In a given list a = [[2, 4, 6, 8, 10], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]]    moderate
+a.append([11,12,13,14,15])
+print(a)
+What is the output of the above code?
+
+a.[[2, 4, 6, 8, 10, 11, 12, 13, 14, 15], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]]
+b.[[2, 4, 6, 8, 10],[ 11, 12, 13, 14, 15], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]]
+c.[[2, 4, 6, 8, 10], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20], [11, 12, 13, 14, 15]]--ans
+d.None of the above.
+
+3.In a given list a = [[2, 4, 6, 8, 10], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]]   moderate
+a[0].reverse()
+print(a)
+
+What is the output of the following?
+
+a.[[4, 8, 12, 16, 20], [3, 6, 9, 12, 15], [2, 4, 6, 8, 10]]
+b.[[10, 8, 6, 4, 2], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]]--ans
+c.[[20, 16, 12, 8, 4], [3, 6, 9, 12, 15], [2, 4, 6, 8, 10]]
+d. None of the above.
+
+4.For a given string str="HELLO"               moderate
+What is the output of the following? str[-5:-3]
+
+a."HELL"
+b."HE"  --Ans
+c."ELL"
+d."ELLO"
+
+
+5.For a given string str="HELLO"    moderate
+What is the output of the following? str[-4:-1]
+
+a."HELL"
+b."HE"  
+c."ELL"  --Ans
+d."ELLO"
+
+6.For a given string str="HELLO"    moderate
+What is the output of the following? str[-3:-1]
+
+a."HELL"
+b."HE"  
+c."ELL"
+d."LL"  --Ans
+
+7.For a given string str="HELLO"    moderate
+What is the output of the following? str[::-1]
+
+a."HELL"
+b."HE"  
+c."ELL"
+d."OLLEH" --Ans
+
+8.For a given string str="HELLO"     moderate
+What is the output of the following? str[1:4]
+
+a."HELL"
+b."HE"  
+c."ELL"  --Ans
+d."ELLO"
+
+
+
+9. For a given string s1 = Hello World!'     moderate
+print("Updated String :- ", s1[:6] + 'Python')
+print(s1)
+
+What is the output of the following?
+
+a.Updated String :-  Hello Python --ans
+b.Updated String :-  Python
+c.Updated String :-  lo Python
+d.Updated String :-  llo Python
+
+10.Given string a = "r Python is an \t interpreted programming"      easy
+In the above declaration r can be denoted as follows.
+a.r is Reverse string
+b.\t can be treated as escape sequence it executes with tab space.
+c.r is raw string which omits escape sequences like \t and print as it is.
+d.r is raw string which executes escape sequences like \t.
+
+11.In the given tuple t = "Programming Python" to delete specific character is allowed using del t(3) is an allowed operation.   easy
+a.True
+b.False
+ ANs b.
+
+12.In the following statements which are true and false.   modearate
+1.Lists are immutable.
+2.Tuples are immutable.
+3.Sets are mutable.
+4.Dictionaries are immutable.
+
+a.1,2 are true,3,4 are false.
+b.1,3,4 are false, 2 is true.
+c.1,4 are false,2,3 are true. --ans
+d.1,3 are true ans 2,4 are false.
+
+13.Which of the following data structure can be changed when the data can not be changed?   easy
+a.Tuple --ans
+b.Set
+c.Dictionary
+4.List
+
+14.Which of the following option will delete an entire dictionary?    easy
+a.Del.dict['name']
+b.del dict('name')
+c.del dict 'name'
+d.del 'dict_name'   --ans
+
+15.Which of the following uses key value pairs.   easy
+a.List
+b.set
+c.Dictionary --ans
+d.tuple
+
+16.def sum(a=4, b=2):  
+		print (a+b) 
+	sum(1,2)  
+	sum( )  
+What is the output of the following?     difficult
+
+a.4,6
+b.3,6 --ans
+c.6,3
+d.4,2
+
+17.def action(x,y):
+    ad=x+y
+    sub=x-y
+    mul=x*y
+    div=x//y
+    return ad,sub,mul,div
+t=action(1,2)
+print(t)
+ What is the output of the above function?     difficult
+a.(2, -1, 3, 0)
+b.(3, 2, -1, 0)
+c.(3, -1, 2, 0)-- ans
+d.(3, 0, 2, -1)
+
+18.Whaich among the following are true statements?    easy
+a. Local variables are stored on a stack unless specified.  --ans
+b. Global variables are stored on a stack unless specified.
+c. Global variables are stored at a fixed location decided by compiler. --ans
+d. Local variables are stored at a fixed location decided by compiler.
+
+19.In python a function defined with no name is called as.    easy
+a. Normal Function
+b. User defined function
+c. Lambda Function --Ans
+d. Recursive Function
+
+20. What kind of arguments are specified in the following code?     difficult
+    def func(a, b=3,c=5)
+         print (" a is ", a, "and b is", b, "anc c is", c)
+1.Arbitary arguments
+2.Keyword arguments --Ans
+3.Variable length arguments
+4.None of the above.
+
+21.What is the output of the following code? difficlut
+
+a = [3, 2, 5, 4]
+
+def mul(val):
+  return val*2
+res = list(map(double, a))
+print(res)
+
+a.[6,4,10,8] --ans
+b.[3,2,5,4]
+c.[1,2,3,4]
+d.None of the above.
+
+22.def add_numbers( a = 10,  b = 20): difficult
+    sum = a + b
+    print('Sum:', sum)
+
+The above is an example of 
+a.Keyword arguments
+b.Variable length arguments
+c.arbitary arguments
+d.Function with default arguments --- ans
+
+23.for i in [29, 32, 34, 54][::-1]:       modearate
+    print(i, end=' ')
+
+What is the output of the following?
+
+a.[29,34,32,54]
+b.[34,54,32,29]
+c.[54,34,32,29]  -- ans
+d.None
+
+24.x = 'Hello'
+for i in range(len(x)):
+    print(i)
+What is the output of the following code?   moderate
+
+a.1,3,2,4,5
+b.1,2,3,4,5
+c.0,1,2,3,4
+d.0,1,2,3,4,5
+
+
+25. What is the output of the following code. difficult
+
+print(type(type(int)))
+
+a. type 'int'
+b.<class type>  ans
+c. error
+d.<class 'int'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
